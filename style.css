@@ -1,0 +1,121 @@
+canvas{
+    display: block;
+    margin-left: 440px;
+    
+    /* justify-content: center; */
+}
+.body{
+    background-color: rgb(50, 124, 0);
+    /* width: 100%;
+    height: 100%; */
+}
+.heder{
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    color: white;
+}
+.ggg::after {
+    content: "";
+    height: 3px;
+    width: 200px;
+    background-color: #ff0000;
+    display: block;
+    margin: 5px auto;
+}
+.contacts-section {
+    /* добавь сюда свойство background-image */
+    background-image:url(./img/contactsBG.png);
+    background-color: #33a10000;
+   
+    /* добавь сюда свойство background-color */
+   
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+  }
+   
+  .white-header {
+    /* добавь сюда свойство color в соответствии с дизайном своего проекта */
+    color: #ffffff;
+   margin-top: 50px;
+    /* margin-bottom: 60px; */
+  }
+   
+  .footer-text {
+    width: 40%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080c7;
+    margin: 0 auto 40px auto;
+  }
+   
+  .footer-link {
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    background-color: #3b5997;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* добавь сюда свойство border-radius */
+    border-radius: 30%;
+   
+    margin: 5px;
+  }
+   
+  .footer-link:nth-of-type(1) {
+    /* добавь сюда свойство background-image */
+    background-image: url(./img/inst2.png);
+   
+    background-color: #3ec2f3;
+  }
+   
+  .footer-link:nth-of-type(2) {
+    /* добавь сюда свойство background-image */
+    background-image: url(./img/inst2.png);
+   
+    background-color: #3ec2f3;
+  }
+   
+  .footer-link:nth-of-type(3) {
+    /* добавь сюда свойство background-image */
+    background-image: url(./img/inst2.png);
+   
+    background-color: #007ab9;
+  }
+   
+  .footer-socials {
+    /* margin-bottom: 40px; */
+    margin-top: 60px;
+  }
+   
+  .phone {
+    color: #bface2;
+    margin-bottom: 12px;
+  }
+   
+  .mail {
+    color: #bface2;
+    margin-bottom: 50px;
+  }
+   
+  hr {
+    margin-top: 70px;
+  }
+   
+  .copyright {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    /* добавь сюда свойство line-height */
+    line-height: 20%;
+   
+    color: #ffffff;
+  }
+   
+  .copyright {
+    /* padding-bottom: 30px; */
+    text-align: center;
+    margin-top: 30px;
+  }
